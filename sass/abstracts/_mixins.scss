@@ -1,0 +1,22 @@
+@mixin carousel-arrow {
+  width: 2rem;
+  height: 2rem;
+  background-color: black;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  left: 42%;
+  top: 0.2rem;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+@mixin grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 22%);
+  margin: 0 auto;
+  justify-items: center;
+  justify-content: center;
+  grid-gap: 0 2rem;
+}

@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background-color: $color-black;
+}
+img {
+  max-width: 100%;
+}
+//  Main container
+.wrapper {
+  overflow-x: hidden;
+  width: 96%;
+  height: auto;
+  margin: 3% 2%;
+  background-color: $color-white;
+}

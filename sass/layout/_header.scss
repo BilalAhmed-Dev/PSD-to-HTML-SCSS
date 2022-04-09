@@ -1,0 +1,96 @@
+.header-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  border-top: 6px solid $color-primary;
+  width: 100%;
+}
+
+.logo {
+  padding: 3.6rem 0 0 2.8rem;
+  grid-column: 1;
+}
+
+.psd-template {
+  grid-row-start: 2;
+  padding: 1.5rem 0 3.7rem 3rem;
+}
+
+// Social icons   width 26% height 5rem
+.social-icons {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  width: 52%;
+  height: 5.5rem;
+  background-color: $color-primary;
+  border-bottom-right-radius: 3rem;
+  border-bottom-left-radius: 3rem;
+  overflow-x: hidden;
+  justify-self: end;
+
+  margin-right: 3rem;
+  .image__icon:first-child {
+    padding-left: 1.3rem;
+  }
+  .image__icon {
+    padding-top: 0.8rem;
+  }
+}
+.side-links-container {
+  grid-column-start: 2;
+  grid-row-start: 2;
+  justify-self: end;
+  padding: 1.8rem 2.9rem 3.7rem 0;
+
+  #mainLinks {
+    display: grid;
+    grid-gap: 0 1rem;
+    grid-template-columns: auto auto auto auto;
+    list-style-type: none;
+    .li-item:not(:last-child) {
+      border-right: 2px solid $color-primary;
+      padding-right: 1rem;
+    }
+    .li-item {
+      color: $color-primary;
+    }
+  }
+}
+
+.nav-container {
+  width: 100%;
+  background-color: $color-primary;
+  display: grid;
+  grid-template-columns: repeat(6, auto) 2fr;
+  grid-column-gap: 2rem;
+  align-items: center;
+
+  .nav-link {
+    padding: 3rem 0 3rem 3rem;
+    text-decoration: none;
+    color: $color-white;
+    transition: all 0.5s;
+    &:hover {
+      color: $color-black;
+      transition: all 1s;
+    }
+  }
+  .nav__search {
+    justify-self: end;
+    margin: 2rem 3.1rem 2rem 0;
+    background-color: rgb(247, 247, 247);
+    // MIXIN USE
+    .search__input {
+      border: none;
+      width: 70%;
+      padding: 1rem;
+    }
+    .search__button {
+      background-color: $color-white;
+      color: $color-primary;
+      border: none;
+      width: 28%;
+      padding: 0.4rem 0;
+    }
+  }
+}

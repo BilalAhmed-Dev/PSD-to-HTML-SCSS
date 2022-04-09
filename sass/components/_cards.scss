@@ -1,0 +1,44 @@
+.cards {
+  img {
+    padding: 5rem 0 0 0;
+  }
+  border-bottom: 3px solid $color-grey;
+
+  .card__description {
+    text-align: left;
+  }
+}
+
+.cards__image {
+  height: 13rem;
+  background-color: $color-black;
+  width: 93%;
+  margin: 7rem 0.5rem 0 0;
+}
+
+.test {
+  border-top: 3px solid $color-grey;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.card_details {
+  text-align: right;
+  line-height: 4rem;
+}
+
+.project__title {
+  line-height: 6rem;
+  text-align: left;
+  color: $color-black;
+}
+
+.contact__cards {
+  padding: 3rem 0 2rem 0;
+  font-size: 2rem;
+  color: rgba(211, 211, 211, 0.555);
+  text-align: left;
+}
+.card__title {
+  padding: 2rem 0 2rem 0;
+}
