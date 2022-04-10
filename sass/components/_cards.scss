@@ -2,7 +2,6 @@
   img {
     padding: 5rem 0 0 0;
   }
-  border-bottom: 3px solid $color-grey;
 
   .card__description {
     text-align: left;
@@ -35,9 +34,13 @@
 
 .contact__cards {
   padding: 3rem 0 2rem 0;
+  width: 100%;
   font-size: 2rem;
-  color: rgba(211, 211, 211, 0.555);
+  color: #999999;
   text-align: left;
+  .card__title {
+    color: #666666;
+  }
 }
 .card__title {
   padding: 2rem 0 2rem 0;

@@ -5,6 +5,7 @@
 }
 html {
   font-size: 62.5%;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 body {
@@ -17,9 +18,14 @@ img {
 }
 //  Main container
 .wrapper {
-  overflow-x: hidden;
+  contain: paint;
   width: 96%;
   height: auto;
   margin: 3% 2%;
   background-color: $color-white;
+
+  @include respond(big-desktop) {
+    max-width: 1000px;
+    margin: 20px auto;
+  }
 }

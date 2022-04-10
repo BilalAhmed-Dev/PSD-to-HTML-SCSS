@@ -5,10 +5,12 @@
 // upper border 30 height
 // bottom 30 height
 @import "vendors/variables";
+@import "abstracts/mixins";
 @import "base/base";
 @import "layout/header";
-@import "abstracts/mixins";
+@import "sass-utils/responsiveNav";
 @import "layout/grid";
+@import "layout/footer";
 @import "components/cards";
 @import "base/typography";
 @import "components/carousel";
